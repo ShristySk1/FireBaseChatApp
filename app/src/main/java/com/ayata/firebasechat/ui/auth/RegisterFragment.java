@@ -52,6 +52,7 @@ public class RegisterFragment extends Fragment {
             Window window = getActivity().getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(getResources().getColor(R.color.register_bk_color));
+
         }
     }
 
